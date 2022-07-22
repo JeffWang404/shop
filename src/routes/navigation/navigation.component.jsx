@@ -32,7 +32,7 @@ const Navigation = () => {
             </span>
           ) : (
             <Link className="nav-link" to="/auth">
-              <div>Sign In</div>
+              <div>Sign in</div>
             </Link>
           )}
           <CartIcon />
