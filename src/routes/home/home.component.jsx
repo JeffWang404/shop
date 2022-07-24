@@ -7,8 +7,8 @@ import Categories from '../../assets/categories.json';
 const Home = () => {
   return (
     <div>
-      <Directory categories={Categories} />;
-      <Outlet />;
+      <Directory categories={Categories} />
+      <Outlet />
     </div>
   );
 };
